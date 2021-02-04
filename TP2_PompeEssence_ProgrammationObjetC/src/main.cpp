@@ -21,13 +21,12 @@ PompeEssence pompeEssence(6, 7, 8, 9,
 void setup()
 {
   Serial.begin(9600);
-
-
+  pompeEssence.reset();
 }
 
 void loop()
 {
-
+ 
   pompeEssence.Executer();
 
 }

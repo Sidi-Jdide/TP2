@@ -15,8 +15,7 @@ public:
     void AfficherNombreSurSegment(int p_nombre);
     void PompeEnArret();
     void VerifierEtatBoutonBouton2();
-    void PompeEnArret();
-    void GererTemps();
+    void GererTemps(int p_compteur);
 protected:
     PompeEssenceBase(const int &p_pinD1, const int &p_pinD2, const int &p_pinD3, const int &p_pinD4,Bouton p_bouton);
 private:

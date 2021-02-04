@@ -37,6 +37,7 @@ void PompeEssenceBase::Executer()
     PompeEnFonction();
   }
   this->AfficherNombreSurSegment(compteurLitreEssence);
+  Serial.print(m_bouton.ObtenirEtatBoutonPistolet());
   
   PompeEnArret();
 }
@@ -64,11 +65,19 @@ void PompeEssenceBase::PompeEnFonction() const
 
 void PompeEssenceBase::PompeEnArret() 
 {
-   
+   while(m_bouton.ObtenirEtatBoutonPistolet()){
+  	GererTemps(compteurLitreEssence);
+  	GererTemps(prixEssence);
+  } 
 }
-void PompeEssenceBase::GererTemps() 
+void PompeEssenceBase::GererTemps(int p_compteur) 
 {
-   
+   unsigned long temps = millis();
+  
+    while(millis() - temps < 5000 && analogRead(A0)){
+	  AfficherNombreSurSegment(p_compteur);
+      VerifierEtatBoutonBouton2();
+    }
 }
 void PompeEssenceBase::CalculPrixEssence() const
 {
