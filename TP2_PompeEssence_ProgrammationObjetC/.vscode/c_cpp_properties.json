@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/Admin/Desktop/Session_Automne_2020/Application_Mobiles-Objets-connectées/TPS/TP2/TP2_PompeEssence_ProgrammationObjetC/include",
-                "c:/Users/Admin/Desktop/Session_Automne_2020/Application_Mobiles-Objets-connectées/TPS/TP2/TP2_PompeEssence_ProgrammationObjetC/src",
+                "c:/Users/Admin/Desktop/Session_Automne_2020/Application_Mobiles-Objets-connectées/TPS/TP2/TP2/TP2_PompeEssence_ProgrammationObjetC/include",
+                "c:/Users/Admin/Desktop/Session_Automne_2020/Application_Mobiles-Objets-connectées/TPS/TP2/TP2/TP2_PompeEssence_ProgrammationObjetC/src",
                 "C:/Users/Admin/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/Admin/.platformio/packages/framework-arduino-avr/variants/standard",
                 "C:/Users/Admin/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -23,8 +23,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/Admin/Desktop/Session_Automne_2020/Application_Mobiles-Objets-connectées/TPS/TP2/TP2_PompeEssence_ProgrammationObjetC/include",
-                    "c:/Users/Admin/Desktop/Session_Automne_2020/Application_Mobiles-Objets-connectées/TPS/TP2/TP2_PompeEssence_ProgrammationObjetC/src",
+                    "c:/Users/Admin/Desktop/Session_Automne_2020/Application_Mobiles-Objets-connectées/TPS/TP2/TP2/TP2_PompeEssence_ProgrammationObjetC/include",
+                    "c:/Users/Admin/Desktop/Session_Automne_2020/Application_Mobiles-Objets-connectées/TPS/TP2/TP2/TP2_PompeEssence_ProgrammationObjetC/src",
                     "C:/Users/Admin/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/Admin/.platformio/packages/framework-arduino-avr/variants/standard",
                     "C:/Users/Admin/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
